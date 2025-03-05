@@ -38,14 +38,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: #bc2aff;
 }
 
 nav ul li a::after {
     content: "";
     display: block;
     height: 2px;
-    background-color: #ffcc00;
+    background-color: #b516ff;
     width: 0;
     transition: width 0.3s ease;
     margin: 5px auto 0 auto;
@@ -66,12 +66,12 @@ nav ul li a:hover::after {
 }
 
 .hero-content {
-    color: #ffcc00; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color:  #b516ff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .cta {
-    background-color: #ffcc00;
+    background-color:  #b516ff;
     color: black;
     padding: 10px 20px;
     text-decoration: none;
@@ -80,7 +80,7 @@ nav ul li a:hover::after {
 }
 
 .cta:hover {
-    background-color: #ffa500;
+    background-color: #d986ff;
 }
 
 
